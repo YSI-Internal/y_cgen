@@ -87,8 +87,6 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#include <YSI-Internal\y_thirdpartyinclude>
-
 CHAIN_HOOK(CGen)
 #undef CHAIN_ORDER
 #define CHAIN_ORDER CHAIN_NEXT(CGen)
