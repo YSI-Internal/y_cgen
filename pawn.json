@@ -1,4 +1,14 @@
 {
 	"user": "YSI-Internal",
-	"repo": "y_cgen"
+	"repo": "y_cgen",
+	"dev_dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"echo": "-",
+		"rcon_password": "password",
+		"port": 7777
+	}
 }
